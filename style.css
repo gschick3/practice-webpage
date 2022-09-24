@@ -1,0 +1,109 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    margin: 0;
+    padding: 8px 200px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo h1 {
+    font-size: 24;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+    font-size: 18px;
+}
+
+.navbar a {
+    color: #E5E7EB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 100px 0;
+}
+
+.intro img {
+    /*This keeps the image from losing its aspect ratio at the cost of making the webpage look weird on smaller sizes*/
+    max-width: 400px;
+    max-height: 225px;
+    width: auto;
+    height: auto;
+}
+
+.intro .text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.intro h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro button {
+    font-size: 18px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    padding: 8px 32px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    margin-top: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
